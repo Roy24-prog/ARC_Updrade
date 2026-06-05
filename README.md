@@ -6,7 +6,7 @@ Version 3 transitions ARC from a voice-only chatbot into a concurrent, path-awar
 
 ---
 
-## Key Features in v3
+## Key Features in v3 
 
 ### 1. Zero-Blocking Asynchronous Loop
 * **Non-blocking Audio Capture**: Pushes microphone streams in a background callback thread to an `asyncio.Queue`, preventing system hangs.
