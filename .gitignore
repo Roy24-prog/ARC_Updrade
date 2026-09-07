@@ -1,2 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Databases
 *.db
-*.json
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# Secrets
+*.pem
+*.key
+*.crt
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# ARC-specific
+memory/
+cache/
